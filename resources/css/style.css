@@ -1,0 +1,516 @@
+/*/*----------------------------------*/
+/* BASIC SETUP */
+/*----------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: Arial;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/*/*----------------------------------*/
+/* TOP HEAD */
+/*----------------------------------*/
+
+.top-head {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/workout-trainer.jpg);
+    height: 750px;
+    overflow-y: hidden;
+}
+
+.head #main-nav {
+    display: inline;
+}
+
+#ghost {
+    margin-top: 50px;
+}
+
+.icon-small {
+    color: #b11515;
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+.head h1 {
+    color: #fff;
+    margin-top: 90px;
+    margin-left: 150px;
+    font-size: 90px;
+    font-weight: bolder;
+    font-weight: 300;
+}
+
+.coach {
+    margin-left: 150px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 35px;
+}
+
+.btn-ghost {
+    color: #fff;
+    border: 1px solid #b11515;
+    padding: 7px 7px;
+    margin-left: 150px;
+}
+
+.top-head a {
+    text-decoration: none;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    color: #fff;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: #b11515;
+}
+
+#full {
+    margin-top: 50px;
+    padding: 5px 5px 5px 5px;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #b11515;
+    color: #fff;
+    margin-left: 15px;
+}
+
+.btn-full:hover,
+.btn-full:active {
+   background-color: #740c10;
+}
+
+/*/*----------------------------------*/
+/* PARAGRAPH */
+/*----------------------------------*/
+
+.paragraph {
+    background-color: #b11515;
+}
+
+.short-copy {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+/*/*----------------------------------*/
+/* ABOUT */
+/*----------------------------------*/
+
+.about {
+    margin-top: 50px;
+}
+
+.about-coach {
+    text-align: center;
+}
+
+.about span {
+    color: #777;
+    font-size: 30px;
+}
+
+.about h2 {
+    font-size: 50px;
+}
+
+.long-copy {
+    line-height: 35px;
+    font-size: 18px;
+    margin: 0 10%;
+}
+
+/*/*----------------------------------*/
+/* WORKOUT PLANS */
+/*----------------------------------*/
+
+.workout-plans {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gym2.jpg);
+    height: 630px;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.workout {
+    padding-top: 30px;    
+}
+
+.workout-plans h3 {
+    font-size: 45px;
+    font-weight: bolder;
+    font-weight: 300;
+    text-align: center;
+}
+
+.short {
+    font-size: 18px;
+    padding: 25px 10% 0 10%;
+    text-align: center;
+}
+
+.plans {
+    text-align: center;
+}
+
+.plans span {
+    color: #b11515;
+    font-weight: bolder;
+}
+
+#plan1 {
+    font-size: 100px;
+    margin-right: 100px;
+    position: relative;
+    padding-left: 95px;
+    
+}
+
+#plan1 #trxworkout {
+    font-size: 13px;
+    position: absolute;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 70px;
+    margin-left: -90px;
+    text-decoration: none;
+}
+
+#plan2 {
+    font-size: 100px;
+    margin-right: 115px;
+    position: relative;
+    padding-left: 95px;
+}
+
+#plan2 #posture {
+    font-size: 13px;
+    position: absolute;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 60px;
+    margin-left: -95px;
+    text-decoration: none;
+}
+
+#plan3 {
+    font-size: 100px;
+    margin-right: 100px;
+    position: relative;
+    padding-left: 95px;
+}
+
+#plan3 #muscle {
+    font-size: 13px;
+    position: absolute;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 60px;
+    margin-left: -50px;
+    text-decoration: none;
+}
+
+#plan4 {
+    font-size: 100px;
+    margin-right: 120px;
+    position: relative;
+    padding-left: 95px;
+}
+
+#plan4 #weight {
+    font-size: 13px;
+    position: absolute;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 70px;
+    margin-left: -90px;
+    text-decoration: none;
+}
+
+#plan5 {
+    font-size: 100px;
+    margin-right: 115px;
+    position: relative;
+    padding-left: 75px;   
+}
+
+#plan5 #cardio {
+    font-size: 13px;
+    position: absolute;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 70px;
+    margin-left: -95px;
+    text-decoration: none;
+}
+
+#plan6 {
+    font-size: 100px;
+    margin-right: 100px;
+    position: relative;
+    padding-left: 95px;
+}
+
+#plan6 #strength {
+    font-size: 13px;
+    position: absolute;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 60px;
+    margin-left: -62px;
+    text-decoration: none;
+}
+
+#workout {
+    margin-left: 570px;
+    text-decoration: none;
+    padding: 3px 3px 3px 3px;
+}
+
+/*/*----------------------------------*/
+/* SUCCESS STORIES */
+/*----------------------------------*/
+
+.success-stories {
+    height: 850px;
+    overflow-y: hidden;
+}
+
+.stories {
+    margin-top: 30px;
+}
+
+.success-stories h3 {
+    text-align: center;
+    font-weight: bolder;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#story1 {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+#bisola {
+    margin-left: 49%;
+    display: block;
+}
+
+#bisoladate {
+    margin-left: 4%;
+    padding-left: 40%;
+    padding-right: 35%;
+    border-bottom: 1px solid #999;
+    padding-bottom: 75px;
+}
+
+#story2 {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 130px;
+}
+
+#posi {
+    margin-left: 49%;
+    display: block;
+}
+
+#posidate {
+    margin-left: 4%;
+    padding-left: 40%;
+    padding-right: 35%;
+    border-bottom: 1px solid #999;
+    padding-bottom: 75px;
+}
+
+#story3 {
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 130px;
+}
+
+#tolu {
+    margin-left: 49%;
+    display: block;
+}
+
+#toludate {
+    margin-left: 4%;
+    padding-left: 42%;
+}
+
+/*/*----------------------------------*/
+/* CONCLUSION */
+/*----------------------------------*/
+
+.conclusion {
+    background-color: #000;
+    color: #fff;
+    height: 650px;
+    display: flex;
+}
+
+.contact {
+     width: 50%;
+     margin-left: 3%;
+}
+
+.contact h4 {
+    padding-top: 70px;
+    margin-left: 12%;
+    font-size: 35px;
+}
+
+.contact h4 span {
+    font-size: 20px;
+}
+
+#companyaddress {
+    margin-left: 12%;
+    display: block;
+}
+
+#telephone {
+    display: block;
+    margin-left: 12%;
+}
+
+#info {
+    margin-left: 12%;
+}
+
+#info a {
+    text-decoration: none;
+}
+
+#info a:link,
+#info a:visited {
+    color:  #fff;
+}
+
+#info a:hover,
+#info a:active {
+    color: #b11515;
+}
+
+.contact-us {
+    width: 50%;
+}
+
+#form {
+    padding-top: 70px;
+    font-size: 35px;
+    margin-left: 20%;
+}
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.name-row {
+    margin-bottom: 30px;
+}
+
+.email-row {
+    margin-bottom: 30px;
+}
+
+.phone-row {
+    margin-bottom: 30px;
+}
+
+#submit {
+    cursor: pointer;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+input[type=submit] {
+    display: inline-block;
+    margin-top: -500px;
+    font-weight: 300;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+input[type=submit] {
+    background-color: #b11515;
+    border: 1px solid #b11515;
+    color: #fff;
+    margin-right: 15px;
+}
+
+input[type=submit]:hover,
+input[type=submit]:active  {
+    background-color: #740c10;
+}
+
+*:focus{outline: none;}
+
+
+/*/*----------------------------------*/
+/* FOOTER */
+/*----------------------------------*/
+
+.footer {
+    background-color: #b11515;
+    height: 200px;
+    color: #fff;
+}
+
+.footer h5 {
+    padding: 75px 0 0 150px;
+}
+
+#android {
+    width: 100px;
+}
+
+#store {
+    width: 100px;
+}

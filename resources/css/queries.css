@@ -1,19 +1,68 @@
+/*-- MEDIUM DEVICES --*/
+
+
 /*-- SMALL DEVICES --*/
 
-@media (max-width: 650px) {
+@media (min-width: 401px) and (max-width: 650px) {
     .head h1 {
         font-size: 3rem;
     }
-}
 
-@media (max-width: 650px) {
     .coach {
         font-size: 1.1rem;
     }
-}
 
-@media (max-width: 650px) {
     #ghost {
         margin-left: 3em;
+    }
+
+    #plan1 {
+        font-size: 3rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    #plan1 #trxworkout {
+        margin-left: -57px;
+    }
+
+    #plan2 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    #plan3 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    #plan4 {
+        font-size: 3rem;
+        padding: 0;
+        margin-right: 150px;
+    }
+
+    #plan5 {
+        font-size: 3rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    #plan6 {
+        font-size: 3rem;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+/*-- EXTRA-SMALL DEVICES --*/
+
+@media (max-width: 400px) {
+    .head h1 {
+        font-size: 2.5rem;
+    }
+
+    .coach {
+        font-size: 1rem;
     }
 }

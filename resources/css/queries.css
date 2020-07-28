@@ -1,0 +1,19 @@
+/*-- SMALL DEVICES --*/
+
+@media (max-width: 650px) {
+    .head h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 650px) {
+    .coach {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 650px) {
+    #ghost {
+        margin-left: 3em;
+    }
+}

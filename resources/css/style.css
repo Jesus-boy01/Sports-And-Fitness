@@ -52,29 +52,11 @@ body {
     font-weight: 300;
 }
 
-@media (max-width: 600px) {
-    .head h1 {
-        font-size: 3rem;
-    }
-}
-
 .coach {
     margin-left: 3em;
     margin-bottom: 20px;
     color: #fff;
     font-size: 35px;
-}
-
-@media (max-width: 650px) {
-    .coach {
-        font-size: 1.1rem;
-    }
-}
-
-@media (max-width: 650px) {
-    #ghost {
-        margin-left: 3em;
-    }
 }
 
 .btn-ghost {

@@ -1,9 +1,17 @@
+/*-- EXTRA LARGE DEVICES DEVICES --*/
+
+/*-- LARGE DEVICES --*/
+
 /*-- MEDIUM DEVICES --*/
+
+@media (min-width:601px) and (max-width:980px) {
+
+}
 
 
 /*-- SMALL DEVICES --*/
 
-@media (min-width: 401px) and (max-width: 650px) {
+@media (min-width: 401px) and (max-width: 600px) {
     .head h1 {
         font-size: 3rem;
     }

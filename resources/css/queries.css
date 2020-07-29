@@ -28,6 +28,7 @@
 
     .head h1 {
         font-size: 3rem;
+        margin-bottom: 1em;
     }
 
     .coach {
@@ -38,6 +39,10 @@
         margin: 1em 0 0 -70px;
     }
 
+    .plans {
+        margin-top: 1.5em;
+    }
+
     #plan1 {
         font-size: 3rem;
         margin: 0;
@@ -45,12 +50,18 @@
     }
 
     #plan1 #trxworkout {
-        margin-left: -57px;
+        margin-left: -65px;
+        margin-top: 20px;
     }
 
     #plan2 {
         font-size: 3rem;
         margin: 0;
+    }
+
+    #plans2 #posture {
+        margin-left: -65px;
+        margin-top: 20px;
     }
 
     #plan3 {
@@ -79,6 +90,10 @@
     #work {
         text-align: center;
         margin-top: 4em;
+    }
+
+    #workout {
+        margin-left: 0;
     }
 }
 

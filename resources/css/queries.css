@@ -59,8 +59,8 @@
         margin: 0;
     }
 
-    #plans2 #posture {
-        margin-left: -65px;
+    #plan2 #posture {
+        margin-left: -75px;
         margin-top: 20px;
     }
 
@@ -69,22 +69,43 @@
         margin: 0;
     }
 
+    #plan3 #musle {
+        margin-left: -75px;
+        margin-top: 20px;
+    }
+
     #plan4 {
         font-size: 3rem;
         padding: 0;
-        margin-right: 150px;
+        margin-right: 1em;
+    }
+
+    #plan4 #weight {
+        margin-left: -75px;
+        margin-right: 1.5em;
+        margin-top: 20px;
     }
 
     #plan5 {
         font-size: 3rem;
-        margin: 0;
+        margin: 0 0.2em 0 1em;
         padding: 0;
+    }
+
+    #plan5 #cardio {
+        margin-left: -75px;
+        margin-top: 20px;
     }
 
     #plan6 {
         font-size: 3rem;
         margin: 0;
         padding: 0;
+    }
+
+    #plan6 #strength {
+        margin-left: -75px;
+        margin-top: 20px;
     }
 
     #work {

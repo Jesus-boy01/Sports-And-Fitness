@@ -54,9 +54,12 @@ body {
 
 .coach {
     margin-left: 3em;
-    margin-bottom: 20px;
     color: #fff;
     font-size: 35px;
+}
+
+.links {
+    margin-top: 1em;
 }
 
 .btn-ghost {
@@ -169,6 +172,7 @@ body {
 
 .plans {
     text-align: center;
+    margin: 2em 0 ;
 }
 
 .plans span {

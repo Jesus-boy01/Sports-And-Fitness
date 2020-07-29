@@ -5,7 +5,17 @@
 /*-- MEDIUM DEVICES --*/
 
 @media (min-width:601px) and (max-width:980px) {
+    .head h1 {
+        font-size: 4rem;
+    }
 
+    .coach {
+        font-size: 1.5rem;
+    }
+
+    .links {
+        margin: 1em 0 0 -20px;
+    }
 }
 
 
@@ -20,8 +30,8 @@
         font-size: 1.1rem;
     }
 
-    #ghost {
-        margin-left: 3em;
+    .links {
+        margin: 1em 0 0 -40px;
     }
 
     #plan1 {

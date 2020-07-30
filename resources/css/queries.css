@@ -1,6 +1,18 @@
 /*-- EXTRA LARGE DEVICES DEVICES --*/
 
+@media (min-width: 1025px) {
+    #submit {
+        margin-bottom: 1em;
+    }
+}
+
 /*-- LARGE DEVICES --*/
+
+@media (min-width: 981px) and (max-width: 1024px) {
+    #submit {
+        margin-bottom: 1em;
+    }
+}
 
 /*-- LARGE DEVICES --*/
 
@@ -15,6 +27,10 @@
 
     .links {
         margin: 1em 0 0 -20px;
+    }
+
+    #submit {
+        margin-bottom: 1em;
     }
 }
 
@@ -110,11 +126,15 @@
 
     #work {
         text-align: center;
-        margin-top: 4em;
+        margin-top: 2em;
     }
 
     #workout {
         margin-left: 0;
+    }
+
+    #submit {
+        margin-bottom: 1em;
     }
 }
 
@@ -140,6 +160,10 @@
     .short-copy {
         font-size: 1.5rem;
     }
+
+    #submit {
+        margin-bottom: 1em;
+    }
 }
 
 /*-- EXTRA SMALL DEVICES --*/
@@ -162,7 +186,11 @@
 
     .links {
         font-size: 0.7rem;
-        margin: 3em 0 0 -50px;
+        margin-top: 3em;
+    }
+
+    #ghost {
+        margin-left: 0.25em;
     }
 
     .short-copy {

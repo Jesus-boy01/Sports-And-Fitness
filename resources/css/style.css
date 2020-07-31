@@ -25,6 +25,7 @@ body {
 
 .top-head {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/workout-trainer.jpg);
+    max-width: 100%;
     height: 750px;
     overflow-y: hidden;
 }
@@ -148,7 +149,6 @@ body {
 
 .workout-plans {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/gym2.jpg);
-    height: 630px;
     color: #fff;
     margin-top: 50px;
 }
@@ -162,6 +162,7 @@ body {
     font-weight: bolder;
     font-weight: 300;
     text-align: center;
+    padding-top: 1em;
 }
 
 .short {
@@ -294,7 +295,6 @@ body {
 /*----------------------------------*/
 
 .success-stories {
-    height: 850px;
     overflow-y: hidden;
 }
 
@@ -507,7 +507,8 @@ input[type=submit]:active  {
 }
 
 .footer h5 {
-    padding: 75px 0 0 150px;
+    padding: 50px 0 20px 0;
+    text-align: center;
 }
 
 #android {

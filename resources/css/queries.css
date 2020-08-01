@@ -230,12 +230,12 @@
     }
 
     #workout {
-        margin-left: 4em;
+        margin-left: 3.5em;
         margin-right: 4.5em;
     }
 
     .links {
-        margin: 1em 0 0 -85px;
+        margin: 1em 0 0 -100px;
     }
 
     .short-copy {
@@ -276,5 +276,9 @@
 
     .short-copy {
         font-size: 1rem;
+    }
+
+    #submit {
+        margin-bottom: 1em;
     }
 }

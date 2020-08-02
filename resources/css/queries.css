@@ -1,10 +1,6 @@
 /*-- EXTRA EXTRA LARGE DEVICES DEVICES --*/
 
 @media (min-width: 1025px) {
-    #workout {
-        margin: auto;
-    }
-
     #submit {
         margin-bottom: 1em;
     }
@@ -101,7 +97,7 @@
     #plan4 {
         font-size: 3rem;
         padding: 0;
-        margin-right: 1em;
+        margin-right: 1.5em;
     }
 
     #plan4 #weight {
@@ -112,7 +108,7 @@
 
     #plan5 {
         font-size: 3rem;
-        margin: 0 0.2em 0 1em;
+        margin: 0 0 0 0;
         padding: 0;
     }
 
@@ -123,7 +119,7 @@
 
     #plan6 {
         font-size: 3rem;
-        margin: 0;
+        margin: 0 -10px 0 1.5em;
         padding: 0;
     }
 
@@ -139,6 +135,60 @@
 
     #workout {
         margin-left: 0;
+    }
+
+    .stories {
+        margin-bottom: 3em;
+    }
+
+    #story2 {
+        margin-top: 2em;
+    }
+
+    #story3 {
+        margin-top: 2em;
+    }
+
+    #bisola {
+        margin: 0;
+        padding-left: 8em;
+        margin-right: 7.5em;
+    }
+
+    #bisoladate {
+        margin: 0;
+        padding-left: 5.5em;
+        padding-right: 4em;
+        border-bottom: none;
+        padding-bottom: 2em;
+    }
+
+    #posi {
+        margin: 0;
+        padding-left: 8.5em;
+        margin-right: 7.5em;
+    }
+
+    #posidate {
+        margin: 0;
+        padding-left: 5.5em;
+        padding-right: 4em;
+        border-bottom: none;
+        padding-bottom: 2em;
+    }
+
+    #tolu {
+        margin: 0;
+        padding-left: 8.5em;
+        margin-right: 7.5em;
+    }
+
+    #toludate {
+        margin: 0;
+        padding-left: 6.5em;
+        padding-right: 4em;
+        border-bottom: none;
+        padding-bottom: 2em;
     }
 
     #submit {
@@ -230,7 +280,7 @@
     }
 
     #workout {
-        margin-left: 3.5em;
+        margin-left: 4em;
         margin-right: 4.5em;
     }
 
@@ -240,6 +290,46 @@
 
     .short-copy {
         font-size: 1.5rem;
+    }
+
+    .stories {
+        margin-bottom: 3em;
+    }
+
+    #bisola {
+        margin: 0;
+        padding-left: 8em;
+        margin-right: 7.5em;
+    }
+
+    #bisoladate {
+        margin: 0;
+        padding-left: 5.5em;
+        padding-right: 4em;
+    }
+
+    #posi {
+        margin: 0;
+        padding-left: 8em;
+        margin-right: 7.5em;
+    }
+
+    #posidate {
+        margin: 0;
+        padding-left: 5.5em;
+        padding-right: 4em;
+    }
+
+    #tolu {
+        margin: 0;
+        padding-left: 8em;
+        margin-right: 7.5em;
+    }
+
+    #toludate {
+        margin: 0;
+        padding-left: 5.5em;
+        padding-right: 4em;
     }
 
     #submit {

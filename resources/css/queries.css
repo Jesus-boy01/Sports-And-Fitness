@@ -410,42 +410,39 @@
     }
 
     #bisola {
+        text-align: center;
         margin: 0;
-        padding-left: 8em;
-        margin-right: 7.5em;
     }
 
     #bisoladate {
         margin: 0;
-        padding-left: 5.5em;
+        padding-left: 6em;
         padding-right: 4em;
         border-bottom: none;
         padding-bottom: 2em;
     }
 
     #posi {
+        text-align: center;
         margin: 0;
-        padding-left: 8.5em;
-        margin-right: 7.5em;
     }
 
     #posidate {
         margin: 0;
-        padding-left: 5.5em;
+        padding-left: 6em;
         padding-right: 4em;
         border-bottom: none;
         padding-bottom: 2em;
     }
 
     #tolu {
+        text-align: center;
         margin: 0;
-        padding-left: 8.5em;
-        margin-right: 7.5em;
     }
 
     #toludate {
         margin: 0;
-        padding-left: 6.5em;
+        padding-left: 7em;
         padding-right: 4em;
         border-bottom: none;
         padding-bottom: 2em;
@@ -722,40 +719,67 @@
         margin-bottom: 3em;
     }
 
+    #story2 {
+        margin-top: 2em;
+    }
+
+    #story3 {
+        margin-top: 2em;
+    }
+
     #bisola {
+        text-align: center;
         margin: 0;
-        padding-left: 8em;
-        margin-right: 7.5em;
     }
 
     #bisoladate {
         margin: 0;
         padding-left: 5em;
-        padding-right: 4em;
+        padding-right: 3em;
+        padding-bottom: 0;
+        border-bottom: none;
     }
 
     #posi {
+        text-align: center;
         margin: 0;
-        padding-left: 8em;
-        margin-right: 7.5em;
     }
 
     #posidate {
         margin: 0;
-        padding-left: 5.5em;
-        padding-right: 4em;
+        padding-left: 5em;
+        padding-right: 3em;
+        padding-bottom: 0;
+        border-bottom: none;
     }
 
     #tolu {
+        text-align: center;
         margin: 0;
-        padding-left: 8em;
-        margin-right: 7.5em;
     }
 
     #toludate {
         margin: 0;
-        padding-left: 5.5em;
-        padding-right: 4em;
+        padding-left: 6em;
+        padding-right: 3em;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    .conclusion {
+        flex-direction: column;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact-us {
+        width: 100%;
+    }
+
+    #submit {
+        margin-bottom: 1em;
     }
 }
 

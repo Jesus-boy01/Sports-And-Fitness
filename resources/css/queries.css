@@ -806,12 +806,142 @@
         margin-top: 3em;
     }
 
+    .short-copy {
+        font-size: 1rem;
+    }
+
+    .plans {
+        margin-bottom: 1em;
+    }
+    
+    #plan1 {
+        margin-right: 0.5em;
+        padding: 0;
+        font-size: 4rem;
+    }
+    
+    #plan1 #trxworkout {
+        margin-top: 45px;
+        margin-left: -75px;
+    }
+    
+    #plan2 {
+        margin-right: 0.5em;
+        padding: 0;
+        font-size: 4rem;
+    }
+    
+    #plan2 #posture {
+        margin-top: 42px;
+        margin-left: -75px;
+    }
+    
+    #plan3 {
+        margin: 0;
+        padding: 0;
+        font-size: 4rem;
+    }
+    
+    #plan3 #muscle {
+        margin-top: 40px;
+        margin-left: -40px;
+    }
+    
+    #plan4 {
+        margin-right: 0.5em;
+        padding: 0;
+        font-size: 4rem;
+    }
+    
+    #plan4 #weight {
+        margin-top: 50px;
+        margin-left: -75px;
+    }
+    
+    #plan5 {
+        margin-right: 0.5em;
+        padding: 0;
+        font-size: 4rem;
+    }
+    
+    #plan5 #cardio {
+        margin-top: 40px;
+        margin-left: -75px;
+    }
+    
+    #plan6 {
+        margin: 0;
+        padding: 0;
+        font-size: 4rem;
+    }
+    
+    #plan6 #strength {
+        margin-top: 40px;
+        margin-left: -55px;
+    }
+    
+    #work {
+        padding-bottom: 1em;
+    }
+    
+    #workout {
+        margin-left: 3em;
+        margin-right: 4.5em;
+    }
+
     #ghost {
         margin-left: 0.25em;
     }
 
-    .short-copy {
-        font-size: 1rem;
+    .stories {
+        margin-bottom: 3em;
+    }
+
+    #story2 {
+        margin-top: 2em;
+    }
+
+    #story3 {
+        margin-top: 2em;
+    }
+
+    #bisola {
+        text-align: center;
+        margin: 0;
+    }
+
+    #bisoladate {
+        margin: 0;
+        padding-left: 3em;
+        padding-right: 1em;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    #posi {
+        text-align: center;
+        margin: 0;
+    }
+
+    #posidate {
+        margin: 0;
+        padding-left: 3em;
+        padding-right: 1em;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+
+    #tolu {
+        text-align: center;
+        margin: 0;
+    }
+
+    #toludate {
+        margin: 0;
+        padding-left: 4em;
+        padding-right: 2em;
+        padding-bottom: 0;
+        border-bottom: none;
     }
 
     .conclusion {
@@ -831,3 +961,6 @@
         margin-bottom: 1em;
     }
 }
+
+
+

@@ -330,8 +330,8 @@
     }
 
     #plan1 #trxworkout {
-        margin-left: -65px;
-        margin-top: 20px;
+        margin-top: 30px;
+        margin-left: -60px;
     }
 
     #plan2 {
@@ -340,8 +340,8 @@
     }
 
     #plan2 #posture {
-        margin-left: -75px;
-        margin-top: 20px;
+        margin-top: 30px;
+        margin-left: -65px;
     }
 
     #plan3 {
@@ -350,7 +350,7 @@
     }
 
     #plan3 #musle {
-        margin-left: -75px;
+        margin-left: -30px;
         margin-top: 20px;
     }
 
@@ -361,9 +361,9 @@
     }
 
     #plan4 #weight {
-        margin-left: -75px;
+        margin-left: -50px;
         margin-right: 1.5em;
-        margin-top: 20px;
+        margin-top: 30px;
     }
 
     #plan5 {
@@ -494,7 +494,8 @@
     }
 
     #plan1 #trxworkout {
-        margin-top: 40px;
+        margin-top: 45px;
+        margin-left: -75px;
     }
 
     #plan2 {
@@ -504,7 +505,8 @@
     }
 
     #plan2 #posture {
-        margin-top: 35px;
+        margin-top: 45px;
+        margin-left: -75px;
     }
 
     #plan3 {
@@ -514,7 +516,8 @@
     }
 
     #plan3 #muscle {
-        margin-top: 30px;
+        margin-top: 45px;
+        margin-left: -40px;
     }
 
     #plan4 {
@@ -524,7 +527,8 @@
     }
 
     #plan4 #weight {
-        margin-top: 40px;
+        margin-top: 45px;
+        margin-left: -75px;
     }
 
     #plan5 {
@@ -534,7 +538,8 @@
     }
 
     #plan5 #cardio {
-        margin-top: 30px;
+        margin-top: 45px;
+        margin-left: -75px;
     }
 
     #plan6 {
@@ -544,7 +549,8 @@
     }
 
     #plan6 #strength {
-        margin-top: 30px;
+        margin-top: 45px;
+        margin-left: -50px;
     }
 
     #work {
@@ -552,7 +558,7 @@
     }
 
     #workout {
-        margin-left: 4em;
+        margin-left: 5.5em;
         margin-right: 4.5em;
     }
 
@@ -568,6 +574,14 @@
         margin-bottom: 3em;
     }
 
+    #story2 {
+        margin-top: 2em;
+    }
+
+    #story3 {
+        margin-top: 2em;
+    }
+
     #bisola {
         margin: 0;
         padding-left: 8em;
@@ -576,8 +590,9 @@
 
     #bisoladate {
         margin: 0;
-        padding-left: 5em;
+        padding-left: 6em;
         padding-right: 4em;
+        border-bottom: none;
     }
 
     #posi {
@@ -588,8 +603,9 @@
 
     #posidate {
         margin: 0;
-        padding-left: 5.5em;
+        padding-left: 6em;
         padding-right: 4em;
+        border-bottom: none;
     }
 
     #tolu {
@@ -600,8 +616,9 @@
 
     #toludate {
         margin: 0;
-        padding-left: 5.5em;
+        padding-left: 6em;
         padding-right: 4em;
+        border-bottom: none;
     }
 
     .conclusion {
@@ -707,7 +724,7 @@
     }
 
     #workout {
-        margin-left: 4em;
+        margin-left: 5em;
         margin-right: 4.5em;
     }
 

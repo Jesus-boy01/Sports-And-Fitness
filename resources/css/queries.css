@@ -8,9 +8,9 @@
 
 /*-- EXTRA LARGE DEVICES --*/
 
-@media (min-width: 981px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     #workout {
-        margin: 0 20em;
+        margin: 0 21em;
     }
 
     #submit {
@@ -20,13 +20,13 @@
 
 /*-- LARGE DEVICES --*/
 
-@media (min-width:601px) and (max-width:980px) {
+@media (min-width: 450px) and (max-width: 768px) {
     .head h1 {
         font-size: 4rem;
     }
 
     .coach {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .links {
@@ -41,7 +41,7 @@
 
 /*-- MEDIUM DEVICES --*/
 
-@media (min-width: 401px) and (max-width: 600px) {
+@media (min-width: 401px) and (max-width: 449px) {
     .head {
         margin-left: -20px;
     }
@@ -213,7 +213,7 @@
 
 /*-- SMALL DEVICES --*/
 
-@media (min-width: 300px) and (max-width: 400px) {
+@media (min-width: 375px) and (max-width: 400px) {
     .head {
         margin-left: -30px;
     }
@@ -319,7 +319,7 @@
 
     #bisoladate {
         margin: 0;
-        padding-left: 5.5em;
+        padding-left: 5em;
         padding-right: 4em;
     }
 
@@ -366,7 +366,140 @@
     }
 }
 
-/*-- EXTRA SMALL DEVICES --*/
+/*-- EXTRA SMALL DEVICES -- */
+
+@media (min-width: 300px) and (max-width: 369px) {
+    .head {
+        margin-left: -30px;
+    }
+
+    .head h1 {
+        font-size: 2.5rem;
+    }
+
+    .coach {
+        font-size: 0.9rem;
+    }
+
+    .plans {
+        margin-bottom: 1em;
+    }
+
+    #plan1 {
+        margin-right: 0.5em;
+        padding: 0;
+        font-size: 4rem;
+    }
+
+    #plan1 #trxworkout {
+        margin-top: 40px;
+    }
+
+    #plan2 {
+        margin-right: 0.5em;
+        padding: 0;
+        font-size: 4rem;
+    }
+
+    #plan2 #posture {
+        margin-top: 35px;
+    }
+
+    #plan3 {
+        margin: 0;
+        padding: 0;
+        font-size: 4rem;
+    }
+
+    #plan3 #muscle {
+        margin-top: 30px;
+    }
+
+    #plan4 {
+        margin-right: 0.5em;
+        padding: 0;
+        font-size: 4rem;
+    }
+
+    #plan4 #weight {
+        margin-top: 40px;
+    }
+
+    #plan5 {
+        margin-right: 0.5em;
+        padding: 0;
+        font-size: 4rem;
+    }
+
+    #plan5 #cardio {
+        margin-top: 30px;
+    }
+
+    #plan6 {
+        margin: 0;
+        padding: 0;
+        font-size: 4rem;
+    }
+
+    #plan6 #strength {
+        margin-top: 30px;
+    }
+
+    #work {
+        padding-bottom: 1em;
+    }
+
+    #workout {
+        margin-left: 4em;
+        margin-right: 4.5em;
+    }
+
+    .links {
+        margin: 1em 0 0 -100px;
+    }
+
+    .stories {
+        margin-bottom: 3em;
+    }
+
+    #bisola {
+        margin: 0;
+        padding-left: 8em;
+        margin-right: 7.5em;
+    }
+
+    #bisoladate {
+        margin: 0;
+        padding-left: 5em;
+        padding-right: 4em;
+    }
+
+    #posi {
+        margin: 0;
+        padding-left: 8em;
+        margin-right: 7.5em;
+    }
+
+    #posidate {
+        margin: 0;
+        padding-left: 5.5em;
+        padding-right: 4em;
+    }
+
+    #tolu {
+        margin: 0;
+        padding-left: 8em;
+        margin-right: 7.5em;
+    }
+
+    #toludate {
+        margin: 0;
+        padding-left: 5.5em;
+        padding-right: 4em;
+    }
+}
+
+/*-- EXTRA EXTRA SMALL DEVICES --*/
 
 @media (max-width: 299px) {
     .head {

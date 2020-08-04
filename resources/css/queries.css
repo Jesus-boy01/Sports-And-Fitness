@@ -191,6 +191,21 @@
         padding-bottom: 2em;
     }
 
+    .conclusion {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact {
+        width: 100%;
+        margin: 0;
+        padding-right: 1em;
+    }
+
+    .contact-us {
+        width: 100%;
+    }
+
     #submit {
         margin-bottom: 1em;
     }
@@ -332,6 +347,20 @@
         padding-right: 4em;
     }
 
+    .conclusion {
+        flex-direction: column;
+    }
+
+    .contact {
+        width: 100%;
+        margin: 0;
+        padding-right: 1em;
+    }
+
+    .contact-us {
+        width: 100%;
+    }
+
     #submit {
         margin-bottom: 1em;
     }
@@ -366,6 +395,19 @@
 
     .short-copy {
         font-size: 1rem;
+    }
+
+    .conclusion {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact-us {
+        width: 100%;
     }
 
     #submit {

@@ -9,6 +9,43 @@
 /*-- EXTRA LARGE DEVICES --*/
 
 @media (min-width: 769px) and (max-width: 1024px) {
+    #main-nav {
+        font-size: 1.2rem;
+    }
+
+    .head h1 {
+        font-size: 5rem;
+    }
+
+    .links {
+        padding-bottom: 1em;
+    }
+
+    #ghost {
+        margin: 30px 0 0 2.5em;
+        font-size: 2rem;
+    }
+
+    #full {
+        font-size: 2rem;
+    }
+
+    .short-copy {
+        font-size: 2.5rem;
+    }
+
+    .about-coach span {
+        font-size: 3rem;
+    }
+
+    .about-coach h2 {
+        font-size: 3.5rem;
+    }
+
+    .long-copy {
+        font-size: 1.7rem;
+    }
+
     #workout {
         margin: 0 21em;
     }
@@ -165,7 +202,7 @@
     }
 
     .coach {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .links {
@@ -233,7 +270,7 @@
     }
 
     #workout {
-        margin: 1em 7.5em;
+        margin: 1em 6.5em;
     }
 
     .stories {
